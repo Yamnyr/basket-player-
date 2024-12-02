@@ -1,0 +1,67 @@
+{
+  "players": [
+    {
+      "id": "2",
+      "nom": "Stephen Curry",
+      "age": 36,
+      "equipe": "Warriors",
+      "position": "Meneur"
+    },
+    {
+      "id": "3",
+      "nom": "Kevin Durant",
+      "age": 35,
+      "equipe": "Suns",
+      "position": "Ailier"
+    },
+    {
+      "id": "4",
+      "nom": "Giannis Antetokounmpo",
+      "age": 29,
+      "equipe": "Bucks",
+      "position": "Ailier-fort"
+    },
+    {
+      "id": "5",
+      "nom": "Nikola Jokic",
+      "age": 29,
+      "equipe": "Nuggets",
+      "position": "Pivot"
+    },
+    {
+      "id": "6",
+      "nom": "Jayson Tatum",
+      "age": 26,
+      "equipe": "Celtics",
+      "position": "Ailier"
+    },
+    {
+      "id": "7",
+      "nom": "Luka Doncic",
+      "age": 25,
+      "equipe": "Mavericks",
+      "position": "Meneur"
+    },
+    {
+      "id": "8",
+      "nom": "Joel Embiid",
+      "age": 30,
+      "equipe": "76ers",
+      "position": "Pivot"
+    },
+    {
+      "id": "9",
+      "nom": "Devin Booker",
+      "age": 28,
+      "equipe": "Suns",
+      "position": "Arrière"
+    },
+    {
+      "id": "10",
+      "nom": "Ja Morant",
+      "age": 24,
+      "equipe": "Grizzlies",
+      "position": "Meneur"
+    }
+  ]
+}

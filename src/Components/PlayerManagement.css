@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #3b82f6;
+    --secondary-color: #8b5cf6;
+    --bg-light: #f3f4f6;
+    --text-dark: #1f2937;
+    --hover-color: #2563eb;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-light);
+    margin: 0;
+    padding: 20px;
+    color: var(--text-dark);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.form-input {
+    /*width: 100%;*/
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-add {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    grid-column: span 2;
+}
+
+.btn-add:hover {
+    opacity: 0.9;
+}
+
+.player-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.player-table th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.player-table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+.player-table td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.action-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-edit {
+    background-color: #eab308;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #ef4444;
+    color: white;
+}
+
+.btn-edit:hover, .btn-delete:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        grid-template-columns: 1fr;
+    }
+}
